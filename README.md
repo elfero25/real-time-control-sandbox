@@ -15,11 +15,13 @@ real-time-control-sandbox/
 │   ├── controller.py           # Lógica de control (LQR / PID / Compensadores)
 │   └── acquisition.py          # Interfaz de adquisición de datos y telemetría
 │
-├── simulations/                # Modelos y scripts de simulación (MATLAB / Simulink)
-│   ├── inverted_pendulum_model.m # Simulación dinámica en espacio de estados
-│   └── PID_Control_Lab_2016b.m   # Simulador interactivo PID en tiempo real
+├── matlab-pid-lab/             # Simulador interactivo PID en tiempo real (MATLAB R2016b+)
+│   └── PID_Control_Lab_2016b.m # Interfaz gráfica, dinámica RK4 y lógica Anti-Windup
 │
-├── docs/                       # Documentación, diagramas y esquemáticos
+├── simulations/                # Modelos y scripts de simulación (MATLAB / Simulink)
+│   └── inverted_pendulum_model.m # Simulación dinámica en espacio de estados
+│
+├── docs/                       # Documentación, diagramas y animaciones
 │   └── system_architecture.md
 │
 ├── requirements.txt            # Dependencias del proyecto
